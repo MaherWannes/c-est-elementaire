@@ -1,0 +1,386 @@
+:root {
+    --primary-color:#000000; 
+    --secondary-color :#14213D; 
+    --nav-text-color :#FCA311;
+    --darkligth-color :#E5E5E5;
+    --light-color : #FFFFFF;
+  }
+  
+  @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+  
+  @font-face {
+  font-family: 'Albertus Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Albertus Medium'), url('https://fonts.cdnfonts.com/s/13715/Albertus Medium Regular.woff') format('woff');
+  }
+  
+  body {
+  
+  background: var(--primary-color) url(../img/background.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  }
+  
+  .flex-container {
+  display: flex;
+  background-color:var(--nav-text-color);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 5px var(--nav-text-color);
+  height: 15vh;
+  }
+  
+  .flex-container a {
+  font-family: 'Albertus Medium';
+  text-decoration: none;
+  color:var(--secondary-color);
+  font-size: 24px;
+  
+  }
+  
+  .flex-item a:hover {
+  color: var(--nav-text-color);  
+  padding: 6px 6px;
+  background: var(--secondary-color);
+  }
+  
+  .flex-item {
+  padding:0px 5%;
+  display: block;
+  background-color:var(--nav-text-color);
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  flex-wrap: nowrap;
+  }
+  .flex-logo img {
+  margin-top: 2px;
+  align-items: center;
+  height: 140px; 
+  padding: 10px 10px 10px;
+  }
+  
+/*CONTACT*/
+
+
+
+@media screen and ( max-width: 500px) {
+
+    .form {
+      display: block;
+      flex-direction: column;
+      margin: auto;
+      justify-content:center ;
+    }
+    
+  
+     input .inputmail .inputname {
+      display: block;
+      flex-direction: column;
+      margin: -0.9rem;
+      height: 10%;
+      justify-content: center;
+      
+    }
+  
+     button .send {
+      justify-content: center;
+      
+  
+    }
+  }
+  
+  body {
+      background: var(--light-color);
+  }
+  
+  
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  .citation p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    
+  }
+  
+  /* CARTE POSTAL */
+  
+  @media screen and ( max-width: 500px) {
+
+    .form {
+      display: block;
+      flex-direction: column;
+      margin: auto;
+      justify-content:center ;
+    }
+    
+  
+     input .inputmail .inputname {
+      display: block;
+      flex-direction: column;
+      margin: -0.9rem;
+      height: 10%;
+      justify-content: center;
+      
+    }
+  
+     button .send {
+      justify-content: center;
+      
+  
+    }
+  }
+  
+  body {
+      background: var(--light-color);
+  }
+  
+  
+  
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .citation p {
+    text-align: center;
+    font-size: 18px;
+    
+  }
+  
+  /* CARTE POSTAL */
+  
+  .carte-postal {
+  border-top: 20px double #952a1e;
+  border-right: 20px double #952a1e;
+  border-bottom: 20px double #952a1e;
+  border-left: 20px double #952a1e;
+  background: linear-gradient(to top,#efeadc ,#bcb8aa) ;
+  display: flex;
+  justify-content: space-around;
+  height: 780px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 80px;
+  margin-bottom: 300px;
+  filter: grayscale(53%) sepia(22%) brightness(93%) saturate(129%) contrast(122%) invert(14%);
+  -webkit-filter: grayscale(53%) sepia(22%) brightness(93%) saturate(129%) contrast(122%) invert(14%);
+  -moz-filter: grayscale(53%) sepia(22%) brightness(93%) saturate(129%) contrast(122%) invert(14%);
+  box-shadow:
+    8.6px 6.7px 23.5px -7px rgba(0, 0, 0, 0.133),
+    29px 22.3px 79.1px -7px rgba(0, 0, 0, 0.197),
+    130px 100px 354px -7px rgba(0, 0, 0, 0.33)
+  ;
+  
+  }
+  
+  /* PARTIE GAUCHE */
+  
+  .postal-1 {
+      
+      width: 600px;
+      
+      
+  }
+  
+  .postal-1 img {
+  height: 300px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: double 8px  rgba(0,0,0,0.95);
+      
+  }
+  
+  
+  .postal-1 hr {
+    display: flex;
+      width: 200px;
+      margin-top: 20px;
+  }
+  
+  .postal-1 p {
+    text-align: center;  
+    padding-left:30px;
+    padding-right:30px;
+    font-size:20px;
+    text-align: justify;
+  }
+  
+  /* PARTIE DROITE linear-gradient(to top,#efeadc ,#bcb8aa) ;*/
+  
+  .formulaire {
+    border-left: 10px double #000000;
+      width: 980px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  
+  .tampon-postal{
+      display: flex;
+      justify-content: space-around;
+     
+  
+  }
+  
+  .tampon-postal img {
+      height: 180px;
+      margin-top: 10px;
+  }
+  
+  section .tampon  {
+    height:250px ;
+    
+  }
+  
+  section .adresse {
+      height: 145px;
+      margin-top: 70px;
+  
+  }
+  
+  .form {
+      display: flex;
+      flex-direction: column;
+      margin: 3rem;
+    }
+    
+    input {
+      display: flex;
+      width: 500px;
+      height: 30px;
+      
+    }
+  
+  input {
+  display: flex;
+  background-color: transparent;
+  }
+  
+    .inputname   {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border: 1.9px transparent;
+      width: 100%;
+      max-width: 500px;
+      border-bottom: 2px dotted #000000;
+      
+      
+    }
+    
+    .inputmail {        
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border: 1.7px transparent;
+      width: 100%;
+      max-width: 500px;
+      border-bottom: 2px dotted #000000;
+      
+    }
+    
+    textarea {
+      background-color: transparent;
+      background-image: url(/assets/img/ligne3.png);
+      margin-top: 25px;
+      width: 600px ;
+      border: 1.7px transparent;
+      line-height: 50px;
+      font-size: 18px;
+      
+    }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: flex;
+          margin-top: 25px;
+          align-self: flex-end;
+          justify-content: center;
+          height: 40px;
+          align-items:center;
+          width: 100%;
+          max-width: 500px;
+          background-color: #000000;
+          color: #E5E5E5;
+          cursor: pointer;
+          border-radius: 4px;
+          transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+          box-shadow: 0 2px 25px var(--darkligth-color);}
+
+
+
+ /* FOOTER */
+
+
+  #footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: var(--nav-text-color);
+    height: 10rem;
+    display: flex;
+    }
+    
+    #footer0 {
+    position: relative;
+    
+    }
+    
+    #content-wrap {
+    padding-bottom: 2.5rem;
+    }
+    
+    
+    .logo-footer {
+    margin: auto;
+    height: 140px;
+    
+    }
+    
+    .footer-box {
+    margin: auto;
+    
+    }
+    
+    .footer-box li a {
+    color: var(--primary-color);
+    text-decoration: none;
+    
+    }
+    
+    .footer-box li a:hover {
+    color: var(--darkligth-color);
+    }
+    
+    .boxlogo {
+    display: flex;
+    }
+    
+    .footer-copyright {
+    color: var(--primary-color)
+    }
