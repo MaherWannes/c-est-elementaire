@@ -92,7 +92,7 @@ margin-top: 8em;
 text-align:center;
 }
 
-.h1index {
+#first h1 {
   margin-bottom: 2em;
   text-align: center;
   color: var(--nav-text-color);
