@@ -92,7 +92,7 @@ margin-top: 8em;
 text-align:center;
 }
 
-h1 {
+.h1index {
   margin-bottom: 2em;
   text-align: center;
   color: var(--nav-text-color);
@@ -110,8 +110,7 @@ h1 {
   margin:0 auto;
   font-size: 20px;
   line-height: 1.5em;
-  padding-top: ;
-  }
+}
 
 .flechbas svg {
 padding-top: 8vh;  
@@ -133,7 +132,7 @@ flex-direction: column;
 align-content: center;
 }
 
-h2 {
+#second h2 {
   text-align: center;
   margin: 4rem;
   font-family:'Libre Baskerville', serif;
