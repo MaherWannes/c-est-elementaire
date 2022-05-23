@@ -232,7 +232,7 @@ margin-top: 10rem;
 .parent {
   display: grid;
   grid-template-columns : 10% 10% 60% 10% 10% ;
-  grid-template-rows:  1fr 30% repeat(3,1fr);
+  grid-template-rows:  1fr 30% repeat(5,1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   width: 100%;
