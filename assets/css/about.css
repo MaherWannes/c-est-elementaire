@@ -1,0 +1,172 @@
+:root {
+    --primary-color:#000000; 
+    --secondary-color :#14213D; 
+    --nav-text-color :#FCA311;
+    --darkligth-color :#E5E5E5;
+    --light-color : #FFFFFF;
+  }
+   
+  @import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+   
+  @font-face {
+  font-family: 'Albertus Medium';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Albertus Medium'), url('https://fonts.cdnfonts.com/s/13715/Albertus Medium Regular.woff') format('woff');
+  }
+   
+   
+  .flex-container {
+  display: flex;
+  background-color:var(--nav-text-color);
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 5px 5px var(--nav-text-color);
+  height: 15vh;
+  width: 100%;
+  }
+   
+  .flex-container a {
+  font-family: 'Albertus Medium';
+  text-decoration: none;
+  color:var(--primary-color);
+  font-size: 24px;
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+  }
+   
+   
+  .flex-container a:hover {
+  color: var(--darkligth-color);  
+   
+  }
+   
+  .flex-logo img {
+   
+  height: 15vh; 
+   
+  }
+   
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: -11%;
+    padding: 0;
+    flex-wrap: wrap;
+    z-index: 100;
+  }
+   
+  .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+    display: none;
+  }
+   
+  .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+   
+  #menu-toggle {
+    display: none;
+  }
+   
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    margin-bottom: 2px;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+    z-index: 100;
+  }
+   
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+   
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+   
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+   
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+  }
+   
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+   
+  }
+   
+   
+   
+  #footer {
+   
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: var(--nav-text-color);
+  height: 10rem;
+  display: flex;
+  }
+   
+  #footer0 {
+  position: relative;
+   
+  }
+   
+  #content-wrap {
+  padding-bottom: 2.5rem;
+  }
+   
+   
+  .logo-footer {
+  margin: auto;
+  height: 140px;
+   
+  }
+   
+  .footer-box {
+  margin: auto;
+   
+  }
+   
+  .footer-box li a {
+  color: var(--primary-color);
+  text-decoration: none;
+   
+  }
+   
+  .footer-box li a:hover {
+  color: var(--darkligth-color);
+  }
+   
+  .boxlogo {
+  display: flex;
+  }
+   
+  .footer-copyright {
+  color: var(--primary-color)
+  }
+   
