@@ -215,6 +215,7 @@ background-color: var(--nav-text-color);
 height: 10rem;
 display: flex;
 line-height: 1.5rem;
+box-shadow: 0px 0px 5px 5px var(--nav-text-color);
 }
 
   
