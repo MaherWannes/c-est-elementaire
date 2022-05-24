@@ -202,7 +202,7 @@ display: flex;
 
 
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 3px){
 
 h1 {
 display: flex;
@@ -378,4 +378,4 @@ hr.parent{
   flex-wrap: wrap;
   
   }
-  
+} 
