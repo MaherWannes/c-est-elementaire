@@ -214,6 +214,7 @@ height: 2.5rem;
 background-color: var(--nav-text-color);
 height: 10rem;
 display: flex;
+line-height: 1.5rem;
 }
 
 #footer0 {
@@ -386,7 +387,13 @@ outline: none;
 body {
   background-image: url(../img/background.png);
 }
+#footer {
+ font-size: 0.8rem;
+ line-height: 1.5em;
+ display: flex;
+ flex-wrap: wrap;
 
+ }
 
 }
   

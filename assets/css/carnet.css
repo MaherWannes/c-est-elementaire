@@ -16,6 +16,7 @@ src: local('Albertus Medium'), url('https://fonts.cdnfonts.com/s/13715/Albertus 
 }
 body {
 background-image: url(../img/paper_fibers.png);
+
 }
   
 .flex-container {
@@ -114,21 +115,95 @@ background-image: url(../img/paper_fibers.png);
   margin-top: 0px;
   transform: rotate(-405deg);
 }
- 
- 
 
-main{
-position:relative;
-height: 100%;
-/* margin: ; */
-
-}
-article{
-position:relative;
-height: 100%;
+.indices {
+  margin-bottom: 20rem;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+   
 }
 
 
+.logo-div {
+    display: flex;
+    height: 16vh;
+  }
+
+  .watson-div {
+    display: flex;
+    height: 24vh;
+    margin-bottom: 1.5rem;
+
+  }
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  margin: 1.5rem;
+  text-align: center;
+  font-family:'Albertus Medium';
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+p {
+max-width: 40rem;
+line-height: 1.5rem;
+text-align: justify;
+font-family:'Libre Baskerville', serif;
+color: var(--primary-color);
+font-size: 1rem;
+}
+
+.infoJournal {
+  margin-top: 1rem;
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 100%;
+
+}
+.parent {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 80vh;
+}
 
 
 #footer {
@@ -294,8 +369,22 @@ hr.parent{
 
 @media (max-width: 1000px) {
  
- 
- 
+  p {
+    max-width: 20rem;
+    font-size: 0.9rem;
+    
+  }
+  
+  .indices {
+    margin-bottom: 10rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+     
+  }
+  
   .flex-container { 
        display: flex;
        background-color:var(--nav-text-color);
@@ -378,4 +467,8 @@ hr.parent{
   flex-wrap: wrap;
   
   }
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> cc1768e9c05918480497bbd2146751133a8a0e59
