@@ -36,15 +36,25 @@
     <body>
   
     <!--  HEADER  -->
-      <header>
-        <nav class="flex-container">
-          <div class="flex-item"><a href="journal.html">Journal</a></div>
-          <div class="flex-item"><a href="carnet.html">Carnet de Watson</a></div>
-          <div class="flex-logo"><a href="index.html"><img src="assets/img/logo.png"alt="logo"></a></div>
-          <div class="flex-item"><a href="about.html">À propos de nous</a></div>
-          <div class="flex-item"><a href="contact.html">Contactez nous</a></div>
-        </nav>
-      </header>
+    <header>
+      <nav class="flex-container">
+        <div class="menu-journal"><a href="journal.html">Journal</a></div>
+        <div class="menu-carnet"><a href="carnet.html">Carnet de Watson</a></div>
+        <div class="flex-logo"><a href="index.html"><img src="assets/img/logo.png"alt="logo"></a></div>
+        <div class="menu-about"><a href="about.html">À propos</a></div>
+        <div class="menu-contact"><a href="contact.html">Contactez nous</a></div>
+          <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+            </label>
+              <ul class="menu">
+                <li><a href="journal.html">Journal</a></li>
+                <li><a href="carnet.html">Carnet de Watson</a></li>
+                <li><a href="about.html">À propos</a</li>
+                <li><a href="contact.html">Contactez nous</a></li>
+              </ul>
+      </nav>
+    </header>
   
     <!--  MAIN  -->
       <main>
