@@ -129,7 +129,7 @@ section {
     display: flex;
     height: 800px;
     
-    background-image: url(/assets/img/Carrousel.png);
+    background-image: url(assets/img/Carrousel.png);
     background-position: center;}
    
 h1 {
