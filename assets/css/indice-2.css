@@ -111,217 +111,95 @@ height: 15vh;
   transform: rotate(-405deg);
 }
   
-/*CONTACT*/
-
-
-  body {
-      background: url(/assets/img/paper_fibers.png);
-  }
-  
-  
-  
-  h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    
-    text-align: center;
-    margin-top: 6px;
-    margin-bottom: 10px;
-  }
-  
-.top-contact .ligne {
-  margin-top: 50px;
+body {
+  background-color: var(--primary-color);
 }
 
-  .top-contact hr {
-    margin-left:40px ;
-    margin-right:40px ;
-  }
-  .citation p {
-    text-align: center;
-    font-size: 18px;
-    line-height: 25px;
-    
-  }
+/* SECTION WALLPAPER*/
 
-  .present p {
-    text-align: left;
-    font-size: 22px;
-    margin-top: 60px ;
-    padding-left: 40px;
-    
-  }
-  
-  /* CARTE POSTAL */
-  
 
-  
-  .citation p {
-    text-align: center;
-    font-size: 18px;
-    
-  }
-  
-  /* CARTE POSTAL */
-  
-  .carte-postal {
-  border-top: 20px double #952a1e;
-  border-right: 20px double #952a1e;
-  border-bottom: 20px double #952a1e;
-  border-left: 20px double #952a1e;
-  background: linear-gradient(to top,#efeadc ,#bcb8aa) ;
+section {
   display: flex;
-  box-shadow: -3px 6px 30px 4px rgba(0,0,0,0.87);
--webkit-box-shadow: -4px 6px 30px 4px rgba(0,0,0,0.87);
--moz-box-shadow: -3px 6px 30px 4px rgba(0,0,0,0.87);
+  justify-content: center;
+  align-items: center;
+}
+
+.wallpaper {
+  display: flex;
+  height: 800px;
+  background-image: url(/assets/img/loupe-journal.jpg);
+  background-position: center;
+ 
+}
   
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 80px;
-  margin-bottom: 300px;
-  filter: grayscale(53%) sepia(22%) brightness(93%) saturate(129%) contrast(122%) invert(14%);
-  -webkit-filter: grayscale(53%) sepia(22%) brightness(93%) saturate(129%) contrast(122%) invert(14%);
-  -moz-filter: grayscale(53%) sepia(22%) brightness(93%) saturate(129%) contrast(122%) invert(14%);
+
+.border {
+  border: solid 10px var(--nav-text-color);
+}
+
+
+  .waviy {
+    position: relative;
+    background-color:var(--primary-color);
+    border: double 10px var(--primary-color);
+    
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+    font-family: 'Albertus Medium';
+    
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
  
   
-  }
-  
-  /* PARTIE GAUCHE */
-  
-  .postal-1 {
-      display: flex;
-      width: 600px;
-      flex-direction: column;
-      
-      
-  }
-  
-  .postal-1 img {
-  height: 300px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  border: double 8px  rgba(0,0,0,0.95);
-      
-  }
-  
-  
-  .postal-1 hr {
-    display: flex;
-      width: 200px;
-      margin-top: 20px;
-  }
-  
-  .postal-1 p {
-     padding-left:30px;
-    padding-right:30px;
-    font-size:20px;
-    text-align: justify;
-  }
-
-  .author p{
-    text-align: center;
-    
-  }
-  
-  /* PARTIE DROITE */
-  
-  .formulaire {
-    border-left: 10px double #000000;
-      width: 980px;
-      margin-top: 15px;
-      margin-bottom: 15px;
-  }
-  
-  .tampon-postal{
-      display: flex;
-      justify-content: space-around;
-     
-  
-  }
-  
-  .adressepostal {
-    width: 100%;
-  }
-  
-  #form {
-      display: flex;
-      flex-direction: column;
-      margin: 3rem;
-    }
-    
-  input {
-   display: flex;
-   width: 500px;
-   height: 30px;
-      
-    }
-  
-  input {
+.recit{
   display: flex;
-  background-color: transparent;
-  }
+  flex-direction: column;
+  box-shadow: 0px 0px 20px 20px var(--primary-color);
+  margin-bottom: 300px;
+}
   
-    .inputname   {
-      margin-top: 25px;
-      margin-bottom: 25px;
-      border: 1.9px transparent;
-      width: 100%;
-      max-width: 500px;
-      border-bottom: 2px dotted #000000;
-      
-      
-    }
-    
-    .inputmail {        
-      margin-top: 25px;
-      margin-bottom: 25px;
-      border: 1.7px transparent;
-      width: 100%;
-      max-width: 500px;
-      border-bottom: 2px dotted #000000;
-      
-    }
-    
-    textarea {
-      background-color: transparent;
-      background-image: url(/assets/img/ligne3.png);
-      margin-top: 25px;
-      width: 590px ;
-      border: 1.7px transparent;
-      line-height: 40px;
-      font-size: 18px;
-      resize: none;
-      
-    }
+h2 {
+  color: var(--light-color);
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-top: 1px solid var(--light-color);
+  border-bottom: 1px solid var(--light-color);
   
-  .button {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    display: flex;
-    margin-top: 25px;
-    align-self: flex-end;
-    justify-content: center;
-    height: 40px;
-    align-items:center;
-    width: 100%;
-    max-width: 500px;
-    background-color: #000000;
-    color: #E5E5E5;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
-    box-shadow: 0 2px 25px var(--darkligth-color);}
+}
 
- button:hover {
-   background-color:#952a1e ;
- }
+p{
+  color: var(--light-color);
+  font-size: 25px;
+  padding-left:60px ;
+  padding-right: 60px ;
+  line-height: 35px;
+  margin-bottom: 80px;
+  text-align: justify;
+}
+
+
+.manindice2{
+  height: 600px;
+  margin-bottom: 80px;
+}
+
+/*.part2{
+  margin-bottom: 180px;
+}
+
+.
 
  /* FOOTER */
 
@@ -464,63 +342,24 @@ height: 15vh;
    display: flex;
    flex-wrap: wrap;
    
-   }
-
-
-
-    /* RESPONSIVE PART */
-
-@media screen and ( max-width: 1340px) {
-  .carte-postal{
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-  } 
-  .formulaire {
-    border-top: 10px double #000000;
-    border-left: none;
-    width: 100%;
-    
   }
 
-  .postal-1{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-  }
-
-  .tampon-postal {
-    width: 100%;
-    
-   
+  @media screen and (max-width:600px) {
+    .wallpaper {
+      height: 400px;
     }
-.adressepostal{
-  margin-top: 5px;
-}
-  
-    
-}
 
-@media screen and (max-width:700px){
-  textarea {
-    width: 100%;
-  }
-  .citation {
-   margin-left: 10px;
-   margin-right: 10px;
-  }
-  .postal-1 img {
-    height: 200px;
-  }
-
-  .postal-1 p {
+    .waviy span {
+      font-size: 50px ;
+    }
+   .recit h2 {
+  font-size: 38px;
+   }
+  .recit p {
     font-size: 18px;
+    line-height: 30px;
   }
-}
+  .recit img {
+    height:260px ;
+  }
+  }
