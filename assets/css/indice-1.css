@@ -127,7 +127,7 @@ section {
 .wallpaper {
   display: flex;
   height: 800px;
-  background-image: url(/assets/img/loupe-journal.jpg);
+  background-image: url(assets/img/loupe-journal.jpg);
   background-position: center;
  
 }
