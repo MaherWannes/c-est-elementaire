@@ -130,6 +130,7 @@ height: 15vh;
   align-items:center;
 }
 #first {
+  margin-top: 10vh;
 height: 85vh;
 display:flex;
 flex-direction: column;
